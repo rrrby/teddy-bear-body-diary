@@ -46,7 +46,11 @@ function draw() {
 function drawInstruction() {
   fill(180);
   textSize(18);
-  text("This is your body diary. Press and hold where you feel it and how much.", width/2, 50);
+  text(
+  "This is your body diary.\nPress and hold where you feel it.",
+  width / 2,
+  50
+);
 }
 
 // Bear (Slow breathing)
