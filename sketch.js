@@ -16,7 +16,7 @@ let colors = [
   [190, 190, 190]  // numb
 ];
 
-let labels = ["pain", "tight", "pressure", "numb"];
+let labels = ["pain疼痛", "tight紧张", "pressure压力", "numb麻木"];
 
 // 🧸 Load Image (Ensure bear.png is uploaded/in the folder)
 function preload() {
@@ -47,7 +47,7 @@ function drawInstruction() {
   fill(180);
   textSize(18);
   text(
-  "This is your body diary.\nPress and hold where you feel it.",
+  "This is your body diary.\nPress and hold where you feel it.\n这是你的身体日志\n按压你感受到的部位",
   width / 2,
   50
 );
